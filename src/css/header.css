@@ -113,4 +113,8 @@
     font-weight: 700;
   }
 
+  .nav-btn:hover {
+    background-color: #FFE450;
+  }
+
 }
