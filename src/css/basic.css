@@ -1,9 +1,35 @@
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Kalam', cursive;
     font-family: 'Roboto', sans-serif;
+    color: #2C2C2C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 24px */
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .section {
     background-color: #FEFEFE;
+}
+
+/*-----TABLET-----*/
+@media screen and (min-width: 768px) {
+.container {
+    max-width: 768px;
+    padding: 0 32px;
+}
+
+}
+
+/*-----DESKTOP-----*/
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 16px;
+    }
 }

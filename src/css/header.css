@@ -1,21 +1,116 @@
 .header {
-  padding: 20px 0;
+  background-color: #FEFEFE;
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
 }
 
-.nav-list {
+.nav-menu {
+  display: none;
+}
+
+.nav-btn {
+  display: none;
+}
+
+.header-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.mobile-menu-btn {
+  background-color: transparent;
+  border: none;
+  fill: #7EB101;
+
+  transition: fill 250ms ease-in-out;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.mobile-menu-btn:focus {
+  fill: #FFE550;
+}
+
+/*-----TABLET-----*/
+
+@media screen and (min-width: 768px) {
+.mobile-menu-btn {
+  display: none;
+}
+
+  .nav-menu {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .nav-btn {
+    display: block;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .svg-container {
+    margin-right: 191px;
+  }
+
+  .nav-container {
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+
+  .nav-list {
+    color: #000;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .home {
+    color: #BBF330;
+    font-weight: 500;
+    text-decoration-line: underline;
+  }
+
+  .nav-btn {
+    border-radius: 30px;
+    background-color: #BBF330;
+    border: none;
+    padding: 6px 18px;
+    color: #2C2C2C;
+    text-align: right;
+    font-family: inherit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 19.5px */
+
+    transition: background-color 250ms ease-in-out;
+  }
+
+  .nav-btn:focus {
+    background-color: #FFE450;
+  }
+
+}
+
+/*-----DESKTOP-----*/
+
+@media screen and (min-width: 1280px) {
+  .svg-container {
+    margin-right: 735px;
+  }
+
+  .nav-list {
+    color: #2C2C2C;
+  }
+
+  .home {
+    color: #BBF330;
+    font-weight: 700;
+  }
+
 }

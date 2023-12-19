@@ -1,13 +1,27 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container header-container">
+    <nav class="nav">
+      <div class="svg-container">
+        <svg class="hamburger-menu" width="66" height="52">
+          <use href="./public/favicon.svg#icon-logo"></use>
+        </svg>
+      </div>
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li class="nav-list home"><a href="/src/index.html">Home</a></li>
+          <li class="nav-list"><a href="/src/index.html">About</a></li>
+          <li class="nav-list"><a href="/src/index.html">Service</a></li>
+          <li class="nav-list"><a href="/src/index.html">Menu</a></li>
+          <li class="nav-list"><a href="/src/index.html">Contact</a></li>
+        </ul> 
+        <button class="nav-btn" type="button">Order Now</button>
+      </div>
+      </nav>
+    <button class="mobile-menu-btn">
+      <svg width="28" height="28">
+        <use href="./public/favicon.svg#icon-hamburger"></use>
+      </svg>
+    </button>
+    
+  </div>
 </header>
