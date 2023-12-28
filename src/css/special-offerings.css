@@ -1,0 +1,203 @@
+.offerings {
+    padding-top: 31px;
+    padding-bottom: 76px;
+    background-color: #fefefe;
+}
+
+.offerings-container {
+    position: relative;
+}
+
+.offerings-image {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 256px;
+    height: 256px;
+    border-radius: 133.4px;
+    background-image: url(../img/apple.png);
+    background-color: rgb(211, 211, 211, 0.05);
+    background-size: 201px 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .offerings-image {
+        background-image: url('../img/apple@2x.png');
+    }
+    }
+
+.offerings-svg {
+    background: radial-gradient(rgb(47, 88, 63, 0.35) 0%, rgba(105, 105, 105, 0.00) 100%);
+    fill: transparent;
+    filter: blur(6.61818265914917px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 270%);
+    border-radius: 133px;
+}
+
+.offerings-title {
+font-size: 28px;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 28px;
+padding-top: 400px;
+}
+
+.offerings-paragraph {
+font-size: 14px;
+line-height: 1.43;
+margin-bottom: 28px;
+}
+
+.offerings-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.offerings-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.offerings-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offerings-subparagraph {
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.offerings-btn {
+    display: inline-flex;
+    padding: 10px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #7EB101;
+    background-color: #FFF;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-right: 24px;
+
+    transition: background-color 250ms ease-in-out;
+}
+
+.offerings-btn:focus,
+.offerings-btn:hover {
+    background-color:  #BBF330;
+    border: none;
+}
+
+.offerings-link {
+    color: #000;
+    font-size: 13.667px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.read-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.read-item-svg {
+    transition: fill 250ms ease-in-out;
+}
+
+.read-item-svg:focus,
+.read-item-svg:hover {
+    fill: #7EB101;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
+}
+
+/*TABLET STYLES*/
+
+@media screen and (min-width: 768px) {
+.offerings {
+    padding-top: 42px;
+    padding-bottom: 94px;
+}
+
+.offerings-container {
+    position: relative;
+}
+
+.offerings-image {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 357px;
+    height: 357px;
+    border-radius: 170px;
+    background-image: url(../img/apple-tablet.png);
+}
+
+@media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .offerings-image {
+        background-image: url('../img/apple-tablet@2x.png');
+    }
+    }
+
+.offerings-svg {
+    filter: blur(8.43px);
+}
+
+.offerings-title {
+font-size: 42px;
+margin-bottom: 20px;
+}
+
+.offerings-paragraph {
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 33px;
+}
+
+.offerings-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+.offerings-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item-svg {
+    margin-left: 8px;
+}
+}
+
+
+/*DESKTOP STYLES*/
+
+
+
+
+
+
+
+
