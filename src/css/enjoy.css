@@ -1,5 +1,9 @@
+.section-enjoy {
+    padding-top: 60px; 
+    padding-bottom: 45px;
+}
+
 .title {
-    margin-top: 60px;
     font-size: 28px;
     font-weight: 700;
     line-height: normal;
@@ -37,6 +41,10 @@
 /*-----TABLET-----*/
 
 @media screen and (min-width: 768px) {
+    .section-enjoy {
+        padding-bottom: 42px;
+    }
+
     .title {
         font-size: 42px;
         line-height: 1.2;
@@ -91,7 +99,52 @@
 /*-----DESKTOP-----*/
 
 @media screen and (min-width: 1280px) {
+.section-enjoy {
+    padding-top: 159px;
+    padding-bottom: 69px;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 28px;
+    max-width: 505px;
+}
+
+.paragraph {
+    max-width: 511px;
+}
+
     .section-btn:hover {
         background-color: #FFE450;
+}
+
+.slider {
+    width: 580px;
+    height: 580px;
+    border-radius: 580px;
+    border: 26px solid #FFE550;
+    background-color: #FEFEFE;
+    position: absolute;
+    
+    top: -280px;
+    right: 0;
+}
+/*
+.slider-img {
+    width: 292px;
+    height: 292px;
+    border-radius: 148.414px;
+    background-image: url(../img/slider-1.png);
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+.slider-img {
+    background-image: url('../img/slider-1@2x.png');
+}
 }
 }
