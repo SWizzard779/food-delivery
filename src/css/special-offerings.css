@@ -187,12 +187,84 @@ margin-bottom: 33px;
 }
 
 .item-svg {
-    margin-left: 8px;
+    background-color: #FEFEFE;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    padding: 6px;
 }
 }
 
 
 /*DESKTOP STYLES*/
+@media screen and (min-width: 1280px) {
+    .offerings {
+    background-color: #FFE550;
+    padding-top: 196px;
+    padding-bottom: 160px;
+}
+
+.offerings-image {
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    width: 502px;
+    height: 502px;
+    border-radius: 502px;
+    background-image: url(../img/apple.png);
+    background-color: #fefefe;
+    background-size: 70%;
+    background-position: 50% 14%;
+}
+    
+    .offerings-svg {
+    filter: blur(13px);
+}
+
+@media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .offerings-image {
+        background-image: url('../img/apple@2x.png');
+    }
+    }
+
+.offerings-title {
+    padding-left: 656px;
+    padding-top: 0px;
+}
+
+.offerings-paragraph {
+margin-bottom: 40px;
+padding-left: 656px;
+padding-right: 108px;
+}
+
+.offerings-menu {
+    gap: 67px;
+    margin-bottom: 32px;
+    padding-left: 656px;
+    padding-right: 35px;
+}
+
+.offerings-subparagraph {
+    line-height: 1.5;
+}
+
+.offerings-btn {
+    margin-left: 656px;
+}
+
+.offerings-link {
+display: none;
+}
+
+.read-container {
+display: none;
+}
+}
+
+
 
 
 
