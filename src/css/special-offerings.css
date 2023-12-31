@@ -69,6 +69,18 @@ margin-bottom: 28px;
     gap: 16px;
 }
 
+.item-svg {
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    padding: 6px;
+}
+
+.rocket {
+    padding: 8px 9px 8px 7px;
+}
+
 .offerings-subtitle {
     font-size: 18px;
     font-weight: 700;
@@ -186,13 +198,6 @@ margin-bottom: 33px;
     align-items: flex-start;
 }
 
-.item-svg {
-    background-color: #FEFEFE;
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    padding: 6px;
-}
 }
 
 
@@ -245,6 +250,10 @@ padding-right: 108px;
     margin-bottom: 32px;
     padding-left: 656px;
     padding-right: 35px;
+}
+
+.item-svg {
+    background-color: #fefefe;
 }
 
 .offerings-subparagraph {

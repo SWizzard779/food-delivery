@@ -1,0 +1,291 @@
+.favorites {
+    padding-top: 56px;
+    padding-bottom: 60px;
+}
+
+.favorites-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.favorites-title-transform {
+    text-transform: lowercase;
+}
+
+.favorites-paragraph {
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.favorites-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-container {
+    width: 280px;
+    height: 282px;
+    border-radius: 140px;
+    border: 11px solid #FFE550;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    border-radius: 158px;
+    background-image: url(../img/gamburger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 27px;
+    width: 224px;
+    height: 224px;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .burger {
+        background-image: url(../img/gamburger@2x.png)
+    }
+}
+
+.pasta {
+    width: 224px;
+    height: 224px;
+    border-radius: 158px;
+    background-image: url(../img/pasta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 27px;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .pasta {
+        background-image: url(../img/pasta@2x.png)
+    }
+}
+
+.pizza {
+    width: 224px;
+    height: 224px;
+    border-radius: 158px;
+    background-image: url(../img/pizza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 27px;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .pizza {
+        background-image: url(../img/pizza@2x.png)
+    }
+}
+
+.devices {
+    display: none;
+}
+
+/*TABLET STYLES*/
+@media screen and (min-width: 768px) {
+    .devices {
+        display: block;
+    }
+
+    .favorites {
+        padding-top: 94px;
+        padding-bottom: 80px;
+    }
+    
+    .favorites-title {
+        font-size: 42px;
+    }
+    
+    .favorites-paragraph {
+        font-size: 16px;
+    }
+
+.favorites-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favorites-item {
+    width: calc((100% - 32px)/2);
+}
+
+.image-container {
+    width: 336px;
+    height: 338px;
+    border-radius: 168px;
+    border: 14px solid #FFE550;
+
+    transition: border 250ms ease-in-out;
+}
+
+.image-container:focus,
+.image-container:hover {
+    border-color: #BBF330;
+}
+
+.burger {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+}
+
+.pasta {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+}
+
+.pizza {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+}
+
+.chicken {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+    background-image: url(../img/chicken.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .chicken {
+        background-image: url(../img/chicken@2x.png)
+    }
+}
+
+.salad {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+    background-image: url(../img/salat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .salad {
+        background-image: url(../img/salat@2x.png)
+    }
+}
+
+.borsch {
+    border-radius: 140px;
+    padding: 34px;
+    width: 268px;
+    height: 268px;
+    background-image: url(../img/borshch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .borsch {
+        background-image: url(../img/borshch@2x.png)
+    }
+}
+}
+
+/*DESKTOP STYLES*/
+@media screen and (min-width: 1280px) {
+    .favorites {
+        padding-top: 120px;
+        padding-bottom: 101px;
+    }
+
+    .favorites-paragraph {
+        margin-bottom: 40px;
+    }
+
+    .favorites-item {
+        width: calc((100% - 64px)/3);
+    }
+    
+    .image-container {
+        width: 395px;
+        height: 397px;
+        border-radius: 198px;
+        border: 16px solid #FFE550;
+    }
+    
+    .burger {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .pasta {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .pizza {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .chicken {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .salad {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+
+    .borsch {
+        border-radius: 165px;
+        padding: 40px;
+        width: 315px;
+        height: 315px;
+    }
+}
