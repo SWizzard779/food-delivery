@@ -1,0 +1,208 @@
+.subscribe {
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+
+.subscribe-content {
+    position: relative;
+}
+
+.subscribe-image {
+    width: 280px;
+    height: 78px;
+    background-image: url(../img/banana-mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transform: translateY(-95px);
+}
+
+@media screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .subscribe-image {
+        background-image: url(../img/banana-mob@2x.png);
+    }
+}
+
+.subscribe-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.subscribe-paragraph {
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form-input {
+    border-radius: 30px;
+    border: 1px solid #FFE550;
+    background-color: #FFF;
+    height: 42px;
+    padding: 12px 0px 12px 12px;
+    min-width: 279px;
+}
+
+.valid {
+    border: 1px solid #7EB101;
+}
+
+.invalid {
+    border: 1px solid #FF705D;
+}
+
+.error-message {
+    color: #FF705D;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-left: 4px;
+}
+
+.error-wrapper {
+    display: none;
+}
+
+.input-wrapper.invalid .error-wrapper {
+    display: block;
+}
+
+.form-input::placeholder {
+    color: #505050;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.subscribe-btn {
+    border-radius: 30px;
+    background-color: #BBF330;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+}
+
+/*TABLET STYLES*/
+@media screen and (min-width: 768px) {
+    .subscribe {
+        padding-top: 101px;
+        padding-bottom: 50px;
+    }
+
+    .position-container {
+        position: relative;
+    }
+
+    .subscribe-image {
+        width: 281px;
+        height: 136px;
+        background-image: url(../img/banana-tablet.png);
+        right: 0;
+        top: -35px;
+    }
+    
+    @media screen and (min-resolution: 192dpi), 
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .subscribe-image {
+            background-image: url(../img/banana-tablet@2x.png);
+        }
+    }
+
+.subscribe-title {
+    font-size: 42px;
+    max-width: 656px;
+}
+
+.subscribe-paragraph {
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 24px;
+max-width: 520px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form-input {
+    height: 42px;
+    padding: 12px 57px 12px 12px;
+    min-width: 395px;
+}
+
+.subscribe-btn {
+    transition: background-color 250ms ease-in-out;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    background-color: #FFE550;
+}
+}
+
+/*DESKTOP STYLES*/
+
+@media screen and (min-width: 1280px) {
+    .subscribe {
+        padding-top: 222px;
+        padding-bottom: 237px;
+    }
+
+    .position-container {
+        padding-left: 18px;
+        padding-right: 15px;
+    }
+
+    .subscribe-image {
+        width: 608px;
+        height: 266px;
+        background-image: url(../img/banan-desktop.png);
+        top: 30px;
+        right: 15px;
+    }
+    
+    @media screen and (min-resolution: 192dpi), 
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .subscribe-image {
+            background-image: url(../img/banan-desktop@2x.png);
+        }
+    }
+
+.subscribe-title {
+    font-size: 42px;
+}
+
+.subscribe-paragraph {
+max-width: 532px;
+}
+
+.subscribe-form {
+    gap: 32px;
+}
+}
+
+
