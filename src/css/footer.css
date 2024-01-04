@@ -1,0 +1,148 @@
+.footer {
+    padding-top: 64px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    position: relative;
+    display: flex;
+}
+
+.footer-logo {
+    margin-right: 46px;
+}
+
+.img-apple-container {
+    width: 110px;
+    height: 116px;
+    position: absolute;
+    background-image: url(../img/footer/footer-apple.png);
+    background-repeat: no-repeat;
+    top: 72px;
+    right: 210px;
+}
+
+.img-orange-container {
+    width: 107px;
+    height: 250px;
+    position: absolute;
+    background-image: url(../img/footer/footer-orange.png);
+    background-repeat: no-repeat;
+    left: 70%;
+    bottom: 0px;
+}
+
+@media screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .img-apple-container {
+        background-image: url(../img/footer/footer-apple@2x.png);
+    }
+    .img-orange-container {
+        background-image: url(../img/footer/footer-orange@2x.png);
+    }
+
+    .img-bottom-container {
+        background-image: url(../img/footer/bottom-fruits@2x.png);
+    }
+}
+
+.footer-nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-nav-list-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-label {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.footer-input {
+    border-radius: 30px;
+    border: 1px solid #FFE550;
+    background-color: #FFF;
+    height: 42px;
+    padding: 12px 0 12px 12px;
+    min-width: 279px;
+    margin-top: 12px;
+}
+
+.footer-btn {
+    border-radius: 30px;
+    background-color: #BBF330;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+}
+
+.footer-paragraph {
+font-size: 10px;
+font-weight: 400;
+line-height: normal;
+margin-top: 4px;
+
+}
+
+.privacy-link {
+    color: #7EB101;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.footer-policies {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.footer-policies-link {
+    color: #7EB101;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.reserved-rights {
+    color: #2C2C2C;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.img-bottom-container {
+width: 253px;
+height: 66px;
+background-image: url(../img/footer/bottom-fruits.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
